@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  WHITELISTED_EMAILS = /^\w.*@(gawker|deadspin|jezebel|kotaku|lifehacker|jalopnik|io9|gizmodo)\.com$/
+  WHITELISTED_EMAILS = /^\w.*@(gawker|deadspin|jezebel|kotaku|lifehacker|jalopnik|io9|gizmodo|gizmodomedia)\.com$/
   has_many :galleries
   has_many :embeds
   has_many :quarterly_goals, foreign_key: :person_id
