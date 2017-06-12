@@ -18,7 +18,7 @@ export default class NavBar extends Component {
     let logInOut = this.renderLoginOut()
     return (
       <nav className="header">
-        <h1 className="site"><Link to="/">Gawker Labs Toolkit</Link></h1>
+        <h1 className="site"><Link to="/">Kinja Labs Toolkit</Link></h1>
         { logInOut }
       </nav>
     )

@@ -9,12 +9,12 @@ export default class Related extends Component {
       <div style={ styles.container }>
         <h3>Related widgets</h3>
         <p style={ styles.small }>
-          Paste links (in multiples of 3) from any Gawker site where it says
+          Paste links (in multiples of 3) from any FMG site where it says
           "Paste a link" below. Also, please change the header from the
           boring "Recommended stories" default to something more interesting
           where it says "Default header..."
         </p>
-        <iframe src="http://gawker-labs.com/related-widget/"
+        <iframe src="http://kinja-labs.com/related-widget/"
           style={ styles.iframe }
         />
       </div>

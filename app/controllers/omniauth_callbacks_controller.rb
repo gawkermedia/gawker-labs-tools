@@ -11,7 +11,7 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
         redirect_to new_user_registration_url
       end
     else
-      flash[:alert] = "You need to log in with your Gawker Media account"
+      flash[:alert] = "You need to log in with your Gizmodo Media account"
       redirect_to root_path
     end
   end

@@ -36,6 +36,6 @@ module RailsReactWebpackStarter
     #   ExampleMiddleware,
     #   "FastlyRails::Rack::RemoveSetCookieHeader"
     # )
-    config.action_mailer.default_url_options = { host: 'tools.gawker-labs.com' }
+    config.action_mailer.default_url_options = { host: 'tools.kinja-labs.com' }
   end
 end
